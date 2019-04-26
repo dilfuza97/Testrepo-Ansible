@@ -11,7 +11,7 @@
       name: httpd
       state: installed
 
-- name: Sdd user
+- name: Add user
   user:
     name: bob
     state: present
